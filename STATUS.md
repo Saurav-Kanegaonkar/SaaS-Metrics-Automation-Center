@@ -2,7 +2,7 @@
 
 - Project: SaaS Metrics Automation Center
 - GitHub: https://github.com/Saurav-Kanegaonkar/SaaS-Metrics-Automation-Center
-- Status: artifact ready
+- Status: pushed
 - Resume Link Ready: Yes
 
 ## What Exists
