@@ -1,0 +1,26 @@
+entity_id,entity_name,segment,priority_score,avg_risk_score,avg_quality_score,estimated_impact
+ACC032,Account 32,Growth,90.57,48.2,81.0,789256
+ACC023,Account 23,Strategic,86.53,50.3,81.0,707990
+ACC020,Account 20,Strategic,82.83,53.9,80.6,614445
+ACC024,Account 24,Watch,82.20,49.9,81.3,648662
+ACC031,Account 31,Watch,78.99,54.9,80.2,545618
+ACC002,Account 2,Watch,78.72,52.1,79.8,566561
+ACC004,Account 4,Watch,77.04,50.5,81.3,564888
+ACC019,Account 19,Watch,76.72,54.3,81.3,522822
+ACC012,Account 12,Watch,75.62,52.1,81.9,531502
+ACC011,Account 11,Growth,75.02,49.9,79.3,530099
+ACC010,Account 10,Watch,74.93,49.0,81.7,550114
+ACC008,Account 8,Strategic,74.23,50.7,79.8,513492
+ACC006,Account 6,Strategic,72.99,53.9,79.5,461576
+ACC001,Account 1,Core,71.03,52.8,80.9,450549
+ACC028,Account 28,Core,70.03,45.5,80.4,504273
+ACC021,Account 21,Growth,69.84,50.0,79.1,449961
+ACC013,Account 13,Growth,69.71,53.3,79.0,415656
+ACC009,Account 9,Core,69.61,56.0,79.8,392551
+ACC005,Account 5,Watch,68.63,47.7,80.1,459778
+ACC003,Account 3,Core,68.12,51.6,80.7,417470
+ACC022,Account 22,Core,67.17,50.9,79.7,404104
+ACC026,Account 26,Strategic,67.03,47.5,79.6,435164
+ACC017,Account 17,Core,66.78,46.9,81.1,444727
+ACC016,Account 16,Watch,66.63,54.3,79.5,362769
+ACC015,Account 15,Watch,66.58,50.1,81.0,410291

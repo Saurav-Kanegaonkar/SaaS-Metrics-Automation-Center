@@ -1,7 +1,8 @@
 # Data Dictionary
 
-- signal: named operating or customer metric
-- segment: business segment or owner group
-- status: current data or operating condition
-- finding: analytical interpretation of the signal
-- risk: prioritization level for action
+| Table | Grain | Purpose |
+|---|---|---|
+| entities.csv | account | Segment, owner, and metadata |
+| daily_metrics.csv | account x day | Performance, value, quality, and risk metrics |
+| source_events.csv | event | Operating exceptions, QA checks, experiments, and stakeholder asks |
+| recommended_actions.csv | action | Candidate actions, expected lift, effort, and status |

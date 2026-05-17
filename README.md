@@ -1,52 +1,33 @@
 # SaaS Metrics Automation Center
 
-I built this because modern SaaS analytics teams need more than dashboards. They need consistent metric definitions, reliable modeled data, AI-assisted workflow triage, and self-serve views that help GTM, product, finance, and operations move faster without creating metric drift.
+I built this because SaaS metrics automation needs an artifact that connects source data, analysis, and recommendations, not just a polished dashboard screenshot.
 
-![SaaS Metrics Automation Center dashboard](docs/images/dashboard.png)
+![SaaS Metrics Automation Center](docs/images/dashboard.png)
 
-## Why this exists
+## What this project is
 
-Stakeholders need trusted visibility into revenue, product usage, customer behavior, and operational efficiency while the analytics function scales.
+This is a control artifact for SaaS metrics automation. It uses synthetic but workflow-shaped data to rank account-level risks and convert the output into stakeholder-ready recommendations.
 
-## What is in the project
+## Data sources
 
-- A polished dashboard in `index.html`
-- Modular UI/data files in `src/`
-- Synthetic operating data in `data/synthetic_operating_data.csv`
-- A screenshot captured from the rendered app in `docs/images/dashboard.png`
+- `entities.csv` - 32 account records
+- `daily_metrics.csv` - 3,840 daily operating rows
+- `source_events.csv` - 650 event and exception records
+- `recommended_actions.csv` - 180 action candidates
 
-## Dashboard sections
+## Analysis outputs
 
-- Metric pulse: ARR movement, product adoption, dashboard freshness, and anomaly count.
-- Data model view: Snowflake-style metric definitions, owner gaps, and dbt-ready checks.
-- Automation memo: AI-assisted reporting opportunities and self-serve analytics priorities.
+- `analysis/executive_findings.md`
+- `analysis/analysis_plan.md`
+- `analysis/sql_checks.sql`
+- `analysis/outputs/priority_queue.csv`
 
-## What the data says
+## Recommendation
 
-The synthetic data shows that revenue and product dashboards are used heavily, but metric definitions are not equally mature.
-
-Manual recurring reports cluster around customer usage and GTM performance, making them good AI-assist candidates.
-
-The strongest next move is to certify metrics before expanding self-serve analytics to more teams.
-
-## Output walkthrough
-
-### Output 1: Executive pulse
-
-The KPI cards summarize the current operating picture and highlight whether the team should trust, investigate, or act on the latest metrics.
-
-### Output 2: Diagnostic table
-
-The table converts raw operating signals into a ranked queue of risks, owners, and recommended next actions.
-
-### Output 3: Analytical recommendations
-
-The memo turns the analysis into specific business actions that can be discussed in a weekly review or stakeholder workshop.
+Use the priority queue to focus stakeholder attention on the account segments where performance upside, measurement risk, and operational readiness overlap.
 
 ## Run locally
 
 ```bash
 python3 -m http.server 4173
 ```
-
-Then open `http://localhost:4173`.

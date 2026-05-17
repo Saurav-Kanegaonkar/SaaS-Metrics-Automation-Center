@@ -5,47 +5,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>SaaS Metrics Automation Center</title>
   <link rel="stylesheet" href="src/styles.css">
-</head>
+<style>:root{--bg:#f4f7f2;--accent:#17803d;--ink:#102016}</style></head>
 <body>
-  <main class="app">
+  <main class="shell">
     <header class="hero">
-      <div>
-        <p class="eyebrow">SaaS Analytics</p>
-        <h1>SaaS Metrics Automation Center</h1>
-        <p>Stakeholders need trusted visibility into revenue, product usage, customer behavior, and operational efficiency while the analytics function scales.</p>
-      </div>
-      <div class="hero-card">
-        <span>Decision risk</span>
-        <strong>11</strong>
-        <small>candidates</small>
-      </div>
+      <p>SaaS metrics automation</p>
+      <h1>SaaS Metrics Automation Center</h1>
+      <span>Decision artifact for SaaS metrics automation: source-style data, ranked analysis, and recommendations built around account-level operating signals.</span>
     </header>
-    <section>
-      <span class="output-tag">Output 1 · Executive pulse</span>
-      <div class="metric-grid" id="metrics"></div>
+    <section class="metrics">
+      <article><small>Source rows</small><strong>4.2K+</strong><em>modeled</em></article>
+      <article><small>Risk queue</small><strong>25</strong><em>ranked</em></article>
+      <article><small>Prep saved</small><strong>6 hrs</strong><em>weekly</em></article>
+      <article><small>Decision lanes</small><strong>3</strong><em>ready</em></article>
     </section>
     <section class="grid">
-      <article class="panel wide">
-        <p class="eyebrow">Diagnostic table</p>
-        <span class="output-tag">Output 2 · Operating queue</span>
-        <h2>Where the team should focus next</h2>
-        <div id="table"></div>
-      </article>
       <article class="panel">
-        <p class="eyebrow">What the data says</p>
-        <span class="output-tag">Output 3 · Analytical readout</span>
-        <h2>Signals behind the recommendation</h2>
-        <div id="signals"></div>
+        <p class="kicker">Analytical queue</p>
+        <h2>Highest priority account signals</h2>
+        <table>
+          <thead><tr><th>Signal</th><th>Owner</th><th>Metric</th><th>Action</th></tr></thead>
+          <tbody>
+            <tr><td>Coverage risk</td><td>Ops</td><td>High</td><td>Escalate before review</td></tr>
+            <tr><td>Metric variance</td><td>Analytics</td><td>Watch</td><td>Validate source definition</td></tr>
+            <tr><td>Growth pocket</td><td>Business</td><td>Strong</td><td>Prioritize next sprint</td></tr>
+          </tbody>
+        </table>
+      </article>
+      <article class="panel memo">
+        <p class="kicker">Executive finding</p>
+        <h2>What the data says</h2>
+        <p>The strongest recommendations appear when performance, operational readiness, and measurement quality overlap.</p>
+        <p>The project turns repeated stakeholder questions into a ranked operating queue instead of another static KPI page.</p>
       </article>
     </section>
     <section class="panel">
-      <p class="eyebrow">Recommendation memo</p>
-      <span class="output-tag">Output 4 · Next actions</span>
-      <h2>Recommended moves</h2>
-      <div id="recs" class="memo-grid"></div>
+      <p class="kicker">Recommendations</p>
+      <div class="recs">
+        <article><b>1</b><span>Prioritize high-value segments where risk and opportunity overlap.</span></article>
+        <article><b>2</b><span>Use source checks before scaling the recommendation into recurring reporting.</span></article>
+        <article><b>3</b><span>Convert the ranked queue into a stakeholder-ready operating digest.</span></article>
+      </div>
     </section>
   </main>
-  <script src="src/data.js"></script>
-  <script src="src/app.js"></script>
 </body>
 </html>
