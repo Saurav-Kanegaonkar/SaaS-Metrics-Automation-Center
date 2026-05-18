@@ -3,50 +3,128 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>SaaS Metrics Automation Center</title>
+  <title>Integration Analytics Command Center</title>
   <link rel="stylesheet" href="src/styles.css">
-<style>:root{--bg:#f4f7f2;--accent:#17803d;--ink:#102016}</style></head>
+</head>
 <body>
-  <main class="shell">
+  <main class="app-shell">
     <header class="hero">
-      <p>SaaS metrics automation</p>
-      <h1>SaaS Metrics Automation Center</h1>
-      <span>Decision artifact for SaaS metrics automation: source-style data, ranked analysis, and recommendations built around account-level operating signals.</span>
+      <div>
+        <p class="eyebrow">SaaS integration analytics</p>
+        <h1>Integration Analytics Command Center</h1>
+        <p class="hero-copy">A portfolio artifact for turning revenue, product usage, customer health, and integration operations into trusted self serve reporting.</p>
+      </div>
+      <aside class="hero-panel" aria-label="Artifact summary">
+        <span>Modeled Snowflake mart</span>
+        <strong id="heroAccounts">45 accounts</strong>
+        <small>Metrics, data quality, anomaly triage, and AI assisted recurring report automation.</small>
+      </aside>
     </header>
-    <section class="metrics">
-      <article><small>Source rows</small><strong>4.2K+</strong><em>modeled</em></article>
-      <article><small>Risk queue</small><strong>25</strong><em>ranked</em></article>
-      <article><small>Prep saved</small><strong>6 hrs</strong><em>weekly</em></article>
-      <article><small>Decision lanes</small><strong>3</strong><em>ready</em></article>
+
+    <section class="score-strip" id="scoreStrip" aria-label="Operating scorecards"></section>
+
+    <nav class="tabs" aria-label="Command center surfaces">
+      <button class="tab is-active" data-tab="cockpit" type="button">Executive Cockpit</button>
+      <button class="tab" data-tab="trust" type="button">Metric Trust</button>
+      <button class="tab" data-tab="automation" type="button">AI Reporting Queue</button>
+    </nav>
+
+    <section class="surface is-active" id="cockpit" aria-labelledby="cockpitTitle">
+      <div class="section-heading">
+        <p class="eyebrow">Surface 1</p>
+        <h2 id="cockpitTitle">Operating cockpit</h2>
+        <p>Revenue, usage, customer, and operations signals are scored together so stakeholders can see where attention is needed first.</p>
+      </div>
+      <div class="two-column">
+        <article class="panel">
+          <div class="panel-heading">
+            <h3>Highest priority account signals</h3>
+            <span>Last 30 days</span>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Account</th>
+                  <th>Segment</th>
+                  <th>Risk</th>
+                  <th>Trust Gap</th>
+                  <th>Priority</th>
+                </tr>
+              </thead>
+              <tbody id="priorityRows"></tbody>
+            </table>
+          </div>
+        </article>
+        <article class="panel">
+          <div class="panel-heading">
+            <h3>Executive findings</h3>
+            <span>Analyst narrative</span>
+          </div>
+          <div class="finding-list" id="findings"></div>
+        </article>
+      </div>
     </section>
-    <section class="grid">
-      <article class="panel">
-        <p class="kicker">Analytical queue</p>
-        <h2>Highest priority account signals</h2>
-        <table>
-          <thead><tr><th>Signal</th><th>Owner</th><th>Metric</th><th>Action</th></tr></thead>
-          <tbody>
-            <tr><td>Coverage risk</td><td>Ops</td><td>High</td><td>Escalate before review</td></tr>
-            <tr><td>Metric variance</td><td>Analytics</td><td>Watch</td><td>Validate source definition</td></tr>
-            <tr><td>Growth pocket</td><td>Business</td><td>Strong</td><td>Prioritize next sprint</td></tr>
-          </tbody>
-        </table>
-      </article>
-      <article class="panel memo">
-        <p class="kicker">Executive finding</p>
-        <h2>What the data says</h2>
-        <p>The strongest recommendations appear when performance, operational readiness, and measurement quality overlap.</p>
-        <p>The project turns repeated stakeholder questions into a ranked operating queue instead of another static KPI page.</p>
-      </article>
+
+    <section class="surface" id="trust" aria-labelledby="trustTitle">
+      <div class="section-heading">
+        <p class="eyebrow">Surface 2</p>
+        <h2 id="trustTitle">Metric certification workbench</h2>
+        <p>The workbench separates certified metrics from draft definitions, owner gaps, freshness misses, and data quality blockers.</p>
+      </div>
+      <div class="two-column trust-grid">
+        <article class="panel">
+          <div class="panel-heading">
+            <h3>Certification queue</h3>
+            <span>Owner ready view</span>
+          </div>
+          <div id="metricCards" class="metric-cards"></div>
+        </article>
+        <article class="panel sql-panel">
+          <div class="panel-heading">
+            <h3>Snowflake checks</h3>
+            <span>Quality contract</span>
+          </div>
+          <pre><code>select
+  metric_name,
+  owner,
+  status,
+  current_freshness_hours,
+  quality_score
+from analytics.metric_definitions
+where status != 'Certified'
+   or current_freshness_hours > freshness_sla_hours
+   or quality_score < 85
+order by quality_score asc;</code></pre>
+        </article>
+      </div>
     </section>
-    <section class="panel">
-      <p class="kicker">Recommendations</p>
-      <div class="recs">
-        <article><b>1</b><span>Prioritize high-value segments where risk and opportunity overlap.</span></article>
-        <article><b>2</b><span>Use source checks before scaling the recommendation into recurring reporting.</span></article>
-        <article><b>3</b><span>Convert the ranked queue into a stakeholder-ready operating digest.</span></article>
+
+    <section class="surface" id="automation" aria-labelledby="automationTitle">
+      <div class="section-heading">
+        <p class="eyebrow">Surface 3</p>
+        <h2 id="automationTitle">AI assisted reporting queue</h2>
+        <p>Recurring reporting candidates are ranked by manual toil, data readiness, reuse potential, and executive visibility.</p>
+      </div>
+      <div class="two-column">
+        <article class="panel">
+          <div class="panel-heading">
+            <h3>Automation candidates</h3>
+            <span>Analyst reviewed</span>
+          </div>
+          <div class="queue-list" id="automationRows"></div>
+        </article>
+        <article class="panel">
+          <div class="panel-heading">
+            <h3>Recommended next actions</h3>
+            <span>Delivery plan</span>
+          </div>
+          <div class="action-list" id="actionRows"></div>
+        </article>
       </div>
     </section>
   </main>
+  <script src="src/data.js"></script>
+  <script src="src/app.js"></script>
 </body>
 </html>

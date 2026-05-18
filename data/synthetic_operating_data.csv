@@ -1,5 +1,4 @@
-signal,segment,status,finding,risk
-"ARR expansion","Finance","Certified","Low","High usage"
-"Feature adoption","Product","Draft","Medium","High usage"
-"Pipeline velocity","GTM","Certified","Low","Medium usage"
-"Support efficiency","Ops","Owner gap","High","Low usage"
+dataset,rows,purpose
+accounts,45,"Synthetic customer and segment grain for revenue, product, and operations reporting."
+daily_metrics,4050,"Daily integration flow, usage, support, quality, freshness, risk, and expansion signals."
+source_events,50,"Modeled exceptions such as schema drift, mapping failures, late extracts, and stakeholder requests."

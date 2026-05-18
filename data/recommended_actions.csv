@@ -1,181 +1,25 @@
-action_id,entity_id,action_type,effort_hours,expected_lift_pct,status
-ACT0001,ACC004,escalate,13,8.1,Complete
-ACT0002,ACC012,monitor,39,12.7,Complete
-ACT0003,ACC011,automate,39,16.6,In Review
-ACT0004,ACC011,validate,4,4.6,Ready
-ACT0005,ACC002,validate,7,4.8,Complete
-ACT0006,ACC021,monitor,11,2.6,Complete
-ACT0007,ACC012,prioritize,16,9.8,Complete
-ACT0008,ACC007,monitor,30,7.8,In Review
-ACT0009,ACC024,escalate,23,14.7,In Review
-ACT0010,ACC015,prioritize,20,2.8,In Review
-ACT0011,ACC018,automate,33,19.2,In Review
-ACT0012,ACC012,validate,16,23.6,Proposed
-ACT0013,ACC014,monitor,23,23.9,In Review
-ACT0014,ACC028,escalate,13,9.2,Ready
-ACT0015,ACC011,validate,22,13.0,In Review
-ACT0016,ACC030,validate,24,12.9,Complete
-ACT0017,ACC023,escalate,43,8.5,Proposed
-ACT0018,ACC028,prioritize,9,14.3,In Review
-ACT0019,ACC006,monitor,17,18.6,Complete
-ACT0020,ACC017,validate,36,16.2,In Review
-ACT0021,ACC016,automate,29,19.0,Proposed
-ACT0022,ACC023,escalate,6,19.4,Complete
-ACT0023,ACC032,monitor,40,23.4,Ready
-ACT0024,ACC032,prioritize,33,15.7,Complete
-ACT0025,ACC019,prioritize,8,17.4,Proposed
-ACT0026,ACC029,validate,40,13.8,Ready
-ACT0027,ACC003,monitor,18,23.6,Proposed
-ACT0028,ACC008,validate,29,9.6,Ready
-ACT0029,ACC013,validate,22,20.3,Complete
-ACT0030,ACC014,escalate,17,17.0,In Review
-ACT0031,ACC027,automate,19,2.4,Ready
-ACT0032,ACC008,escalate,35,14.6,In Review
-ACT0033,ACC016,monitor,32,23.9,Complete
-ACT0034,ACC019,escalate,29,3.7,In Review
-ACT0035,ACC018,monitor,6,23.5,In Review
-ACT0036,ACC017,monitor,34,5.0,Ready
-ACT0037,ACC001,automate,5,9.1,In Review
-ACT0038,ACC004,validate,39,17.5,Complete
-ACT0039,ACC023,monitor,42,12.7,Complete
-ACT0040,ACC018,monitor,30,18.8,Complete
-ACT0041,ACC032,monitor,26,20.7,In Review
-ACT0042,ACC007,prioritize,33,14.8,Ready
-ACT0043,ACC023,automate,34,18.9,Complete
-ACT0044,ACC007,automate,16,11.2,Proposed
-ACT0045,ACC006,validate,3,14.7,In Review
-ACT0046,ACC031,validate,19,23.4,Proposed
-ACT0047,ACC013,escalate,31,9.9,In Review
-ACT0048,ACC013,automate,8,5.9,In Review
-ACT0049,ACC002,escalate,7,5.8,Ready
-ACT0050,ACC008,prioritize,24,12.5,Ready
-ACT0051,ACC001,validate,39,4.4,Proposed
-ACT0052,ACC022,validate,39,24.0,Proposed
-ACT0053,ACC026,validate,23,20.9,Ready
-ACT0054,ACC032,prioritize,27,3.0,Ready
-ACT0055,ACC001,prioritize,14,4.7,In Review
-ACT0056,ACC002,validate,24,22.8,Proposed
-ACT0057,ACC030,monitor,21,8.3,Proposed
-ACT0058,ACC018,prioritize,11,3.2,Complete
-ACT0059,ACC026,prioritize,38,12.6,In Review
-ACT0060,ACC028,validate,18,17.8,Ready
-ACT0061,ACC006,prioritize,30,10.0,Complete
-ACT0062,ACC018,escalate,13,23.7,In Review
-ACT0063,ACC031,automate,3,22.6,Proposed
-ACT0064,ACC029,automate,21,13.4,In Review
-ACT0065,ACC012,escalate,35,9.2,Ready
-ACT0066,ACC029,validate,11,8.6,Proposed
-ACT0067,ACC003,monitor,16,22.5,Complete
-ACT0068,ACC015,validate,10,16.4,Proposed
-ACT0069,ACC010,monitor,41,14.7,Proposed
-ACT0070,ACC029,monitor,7,14.0,In Review
-ACT0071,ACC001,prioritize,11,15.5,Ready
-ACT0072,ACC003,monitor,16,10.5,Ready
-ACT0073,ACC018,prioritize,28,2.3,Proposed
-ACT0074,ACC026,escalate,21,21.0,Complete
-ACT0075,ACC029,validate,40,17.8,Complete
-ACT0076,ACC019,validate,30,21.6,Proposed
-ACT0077,ACC009,escalate,21,22.6,In Review
-ACT0078,ACC011,monitor,29,9.8,Ready
-ACT0079,ACC021,prioritize,22,11.7,Ready
-ACT0080,ACC018,prioritize,34,10.7,Ready
-ACT0081,ACC017,monitor,24,17.7,In Review
-ACT0082,ACC017,monitor,22,2.4,Proposed
-ACT0083,ACC018,monitor,32,18.7,Ready
-ACT0084,ACC020,validate,28,20.2,Complete
-ACT0085,ACC026,prioritize,25,19.6,Complete
-ACT0086,ACC009,validate,18,6.4,Complete
-ACT0087,ACC013,automate,13,18.8,Proposed
-ACT0088,ACC015,prioritize,28,14.5,In Review
-ACT0089,ACC005,monitor,14,20.0,Proposed
-ACT0090,ACC028,automate,20,18.6,Complete
-ACT0091,ACC030,escalate,11,22.1,Ready
-ACT0092,ACC017,automate,30,3.6,Ready
-ACT0093,ACC024,monitor,16,18.1,Complete
-ACT0094,ACC006,validate,20,10.3,Complete
-ACT0095,ACC030,prioritize,14,11.3,Proposed
-ACT0096,ACC020,prioritize,2,14.0,In Review
-ACT0097,ACC020,validate,35,11.3,Ready
-ACT0098,ACC016,escalate,25,20.8,Ready
-ACT0099,ACC028,validate,39,2.9,Proposed
-ACT0100,ACC007,monitor,16,21.4,Proposed
-ACT0101,ACC017,automate,7,3.9,Ready
-ACT0102,ACC002,prioritize,16,3.6,In Review
-ACT0103,ACC030,monitor,6,23.9,Ready
-ACT0104,ACC019,validate,4,14.2,Complete
-ACT0105,ACC025,escalate,17,9.5,Proposed
-ACT0106,ACC016,automate,3,4.6,In Review
-ACT0107,ACC019,automate,6,21.9,Complete
-ACT0108,ACC020,escalate,41,5.9,Complete
-ACT0109,ACC002,validate,18,22.6,Ready
-ACT0110,ACC006,escalate,19,20.4,Proposed
-ACT0111,ACC001,monitor,31,20.4,Ready
-ACT0112,ACC026,escalate,20,22.7,Ready
-ACT0113,ACC016,prioritize,36,11.3,Ready
-ACT0114,ACC009,prioritize,3,14.7,Complete
-ACT0115,ACC009,prioritize,43,21.5,In Review
-ACT0116,ACC021,validate,17,4.4,Complete
-ACT0117,ACC006,automate,9,7.9,Proposed
-ACT0118,ACC007,escalate,4,4.3,Proposed
-ACT0119,ACC026,prioritize,12,22.7,Ready
-ACT0120,ACC010,escalate,38,8.4,Ready
-ACT0121,ACC007,monitor,36,5.5,Proposed
-ACT0122,ACC023,prioritize,9,19.9,In Review
-ACT0123,ACC021,prioritize,23,12.6,Complete
-ACT0124,ACC024,automate,29,6.6,In Review
-ACT0125,ACC022,validate,9,13.8,Ready
-ACT0126,ACC011,prioritize,29,19.4,Ready
-ACT0127,ACC002,validate,33,15.5,Complete
-ACT0128,ACC013,validate,10,4.0,Complete
-ACT0129,ACC017,validate,6,16.1,Proposed
-ACT0130,ACC027,validate,7,9.3,Complete
-ACT0131,ACC013,validate,14,16.3,Proposed
-ACT0132,ACC024,escalate,11,3.2,Ready
-ACT0133,ACC031,validate,18,13.2,Complete
-ACT0134,ACC009,monitor,33,22.6,Proposed
-ACT0135,ACC026,prioritize,41,23.3,In Review
-ACT0136,ACC002,monitor,24,22.8,Complete
-ACT0137,ACC024,automate,43,19.8,Ready
-ACT0138,ACC014,escalate,36,23.5,In Review
-ACT0139,ACC007,escalate,42,22.9,In Review
-ACT0140,ACC026,validate,12,14.7,Complete
-ACT0141,ACC032,prioritize,7,10.9,Ready
-ACT0142,ACC030,validate,16,11.2,Complete
-ACT0143,ACC020,monitor,5,6.8,In Review
-ACT0144,ACC009,automate,43,10.4,Complete
-ACT0145,ACC020,prioritize,28,2.2,In Review
-ACT0146,ACC012,prioritize,27,11.6,In Review
-ACT0147,ACC007,prioritize,3,12.9,Complete
-ACT0148,ACC029,automate,20,20.3,In Review
-ACT0149,ACC008,validate,40,10.5,In Review
-ACT0150,ACC032,automate,37,18.0,Proposed
-ACT0151,ACC025,validate,42,19.2,Ready
-ACT0152,ACC031,prioritize,16,6.1,Ready
-ACT0153,ACC032,prioritize,35,21.4,Ready
-ACT0154,ACC030,automate,4,19.9,Proposed
-ACT0155,ACC003,automate,16,17.6,Proposed
-ACT0156,ACC020,prioritize,43,11.2,Complete
-ACT0157,ACC028,escalate,31,9.3,Proposed
-ACT0158,ACC007,validate,42,19.7,In Review
-ACT0159,ACC027,validate,36,6.8,Proposed
-ACT0160,ACC032,prioritize,24,9.8,Proposed
-ACT0161,ACC024,prioritize,8,13.9,Ready
-ACT0162,ACC023,prioritize,38,6.7,Proposed
-ACT0163,ACC022,escalate,9,22.6,Proposed
-ACT0164,ACC001,prioritize,5,11.2,Proposed
-ACT0165,ACC016,validate,30,22.6,Proposed
-ACT0166,ACC025,automate,7,22.7,Ready
-ACT0167,ACC026,monitor,20,22.9,In Review
-ACT0168,ACC024,validate,39,13.4,Proposed
-ACT0169,ACC019,prioritize,9,3.8,Proposed
-ACT0170,ACC017,prioritize,8,11.9,Proposed
-ACT0171,ACC005,monitor,31,19.5,In Review
-ACT0172,ACC005,automate,18,21.8,Complete
-ACT0173,ACC023,validate,35,4.6,Ready
-ACT0174,ACC031,validate,13,18.6,In Review
-ACT0175,ACC028,monitor,13,20.3,Ready
-ACT0176,ACC025,prioritize,9,3.0,Complete
-ACT0177,ACC032,escalate,27,10.5,In Review
-ACT0178,ACC032,monitor,4,19.2,Ready
-ACT0179,ACC027,prioritize,13,11.3,Proposed
-ACT0180,ACC020,monitor,15,23.8,In Review
+action_id,account_id,domain,action_type,rationale,expected_value,effort_hours,owner,priority_score
+ACT001,ACC007,Operations,Escalate integration reliability review with Data Engineering,"Priority 73.5 from risk 73.3, trust gap 41.9, and opportunity 100.",784503,12.1,Revenue,73.5
+ACT002,ACC019,Operations,Escalate integration reliability review with Data Engineering,"Priority 68.0 from risk 64.0, trust gap 36.8, and opportunity 100.",140641,11.0,Customer Success,68.0
+ACT003,ACC023,Operations,Escalate integration reliability review with Data Engineering,"Priority 66.4 from risk 62.1, trust gap 33.8, and opportunity 100.",646684,13.9,Customer Success,66.4
+ACT004,ACC016,Operations,Escalate integration reliability review with Data Engineering,"Priority 64.5 from risk 58.8, trust gap 32.1, and opportunity 100.",163162,17.8,Revenue,64.5
+ACT005,ACC036,Operations,Escalate integration reliability review with Data Engineering,"Priority 64.1 from risk 58.2, trust gap 31.5, and opportunity 100.",125744,14.4,Revenue,64.1
+ACT006,ACC039,Operations,Escalate integration reliability review with Data Engineering,"Priority 63.5 from risk 56.1, trust gap 32.8, and opportunity 100.",349601,4.6,Operations,63.5
+ACT007,ACC025,Operations,Escalate integration reliability review with Data Engineering,"Priority 62.5 from risk 56.3, trust gap 28.9, and opportunity 100.",111586,18.0,Product,62.5
+ACT008,ACC037,Revenue and product,Create expansion analysis packet for stakeholder review,"Priority 61.5 from risk 53.6, trust gap 29.5, and opportunity 100.",159115,13.2,Customer Success,61.5
+ACT009,ACC020,Revenue and product,Create expansion analysis packet for stakeholder review,"Priority 59.7 from risk 50.8, trust gap 27.2, and opportunity 100.",50156,4.3,Product,59.7
+ACT010,ACC021,Revenue and product,Create expansion analysis packet for stakeholder review,"Priority 58.3 from risk 48.3, trust gap 26.3, and opportunity 100.",733138,17.4,Product,58.3
+ACT011,ACC002,Revenue and product,Create expansion analysis packet for stakeholder review,"Priority 58.2 from risk 49.7, trust gap 23.4, and opportunity 100.",823786,16.1,Product,58.2
+ACT012,ACC018,Revenue and product,Create expansion analysis packet for stakeholder review,"Priority 57.5 from risk 48.5, trust gap 22.9, and opportunity 100.",26845,12.6,Product,57.5
+ACT013,ACC027,Revenue and product,Create expansion analysis packet for stakeholder review,"Priority 57.4 from risk 48.0, trust gap 23.0, and opportunity 100.",253888,15.4,Operations,57.4
+ACT014,ACC001,Revenue and product,Create expansion analysis packet for stakeholder review,"Priority 56.8 from risk 47.4, trust gap 21.7, and opportunity 100.",126626,16.6,Revenue,56.8
+ACT015,ACC014,Revenue and product,Create expansion analysis packet for stakeholder review,"Priority 56.7 from risk 46.1, trust gap 24.0, and opportunity 100.",614394,14.5,Operations,56.7
+ACT016,ACC017,Revenue and product,Create expansion analysis packet for stakeholder review,"Priority 55.7 from risk 46.0, trust gap 20.2, and opportunity 100.",32451,14.2,Operations,55.7
+ACT017,ACC026,Revenue and product,Create expansion analysis packet for stakeholder review,"Priority 54.1 from risk 41.6, trust gap 21.6, and opportunity 100.",108743,14.7,Operations,54.1
+ACT018,ACC028,Revenue and product,Create expansion analysis packet for stakeholder review,"Priority 52.5 from risk 38.8, trust gap 20.0, and opportunity 100.",443376,5.3,Product,52.5
+ACT019,ACC034,Revenue and product,Create expansion analysis packet for stakeholder review,"Priority 52.4 from risk 38.8, trust gap 19.8, and opportunity 100.",20430,7.7,Revenue,52.4
+ACT020,ACC038,Revenue and product,Create expansion analysis packet for stakeholder review,"Priority 50.3 from risk 37.1, trust gap 14.3, and opportunity 100.",35358,17.9,Product,50.3
+ACT021,ACC042,Revenue and product,Create expansion analysis packet for stakeholder review,"Priority 49.7 from risk 36.0, trust gap 13.9, and opportunity 100.",65412,15.2,Customer Success,49.7
+ACT022,ACC041,Revenue and product,Create expansion analysis packet for stakeholder review,"Priority 48.4 from risk 53.7, trust gap 30.0, and opportunity 55.7.",117195,9.8,Revenue,48.4
+ACT023,ACC022,Revenue and product,Create expansion analysis packet for stakeholder review,"Priority 47.4 from risk 30.3, trust gap 15.0, and opportunity 100.",149086,9.0,Customer Success,47.4
+ACT024,ACC005,Revenue and product,Create expansion analysis packet for stakeholder review,"Priority 46.3 from risk 29.3, trust gap 12.3, and opportunity 100.",60591,4.9,Revenue,46.3

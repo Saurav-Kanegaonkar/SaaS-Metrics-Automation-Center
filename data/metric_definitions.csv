@@ -1,0 +1,13 @@
+metric_name,domain,owner,status,freshness_sla_hours,current_freshness_hours,quality_score,source_tables,certification_blocker
+Net ARR retention,Revenue,Finance Analytics,Certified,8,3.5,95.1,"contracts, invoices, subscriptions",None
+Expansion pipeline sourced,Revenue,GTM Analytics,Draft,12,12.9,75.2,"opportunities, product usage",Needs grain decision
+Active integration flows,Product,Product Analytics,Certified,4,4.4,94.8,"flow executions, account map",None
+Flow success rate,Operations,Data Engineering,Certified,2,1,90.1,"flow executions, exception logs",None
+AI assist adoption,Product,Product Analytics,Draft,12,9.7,80.5,"agent actions, user events",Needs grain decision
+Dashboard freshness SLA,Analytics Ops,Analytics,Certified,6,5.0,81.8,"dashboard runs, warehouse jobs",None
+Customer health risk,Customer,Customer Success Ops,Needs owner,12,10.8,81.4,"tickets, ARR, usage",Owner and definition conflict
+Support deflection,Operations,Support Ops,Draft,24,29.9,61.7,"cases, knowledge events",Needs grain decision
+Implementation maturity,Customer,Professional Services,Certified,24,20.1,96.5,project milestones,None
+Self serve adoption,Analytics Ops,Analytics,Certified,12,12.3,85.5,"BI views, stakeholder map",None
+Data quality incident rate,Analytics Ops,Data Engineering,Certified,4,6.0,78.5,"test results, incidents",None
+Recurring reporting toil,Analytics Ops,Analytics,Draft,24,29.7,84.7,"requests, report catalog",Needs owner approval

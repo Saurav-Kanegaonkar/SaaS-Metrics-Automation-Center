@@ -1,64 +1,396 @@
-window.dashboardData = {
-  "cards": [
-    [
-      "ARR movement",
-      "+12%",
-      "QoQ"
-    ],
-    [
-      "Product adoption",
-      "68%",
-      "+8 pp"
-    ],
-    [
-      "Fresh dashboards",
-      "94%",
-      "within SLA"
-    ],
-    [
-      "Automation backlog",
-      "11",
-      "candidates"
-    ]
+window.artifactData = {
+  "summary": {
+    "accounts": 45,
+    "dailyRows": 4050,
+    "events": 50,
+    "arrMonitored": 13351439,
+    "avgQuality": 87.8,
+    "avgErrorRate": 0.027,
+    "certifiedMetrics": 7,
+    "automationCandidates": 14,
+    "manualHours": 91.6
+  },
+  "priorityQueue": [
+    {
+      "account_id": "ACC007",
+      "segment": "Strategic",
+      "owner_team": "Revenue",
+      "avg_error_rate": 0.0693,
+      "avg_quality_score": 74.9,
+      "avg_freshness_hours": 13.3,
+      "certified_metric_coverage": 66.3,
+      "arr_at_risk": 3131407,
+      "expansion_signal": 1003864,
+      "risk_score": 73.3,
+      "opportunity_score": 100,
+      "trust_gap_score": 41.9,
+      "priority_score": 73.5
+    },
+    {
+      "account_id": "ACC019",
+      "segment": "Mid-Market",
+      "owner_team": "Customer Success",
+      "avg_error_rate": 0.0592,
+      "avg_quality_score": 77.8,
+      "avg_freshness_hours": 12.1,
+      "certified_metric_coverage": 66.8,
+      "arr_at_risk": 518720,
+      "expansion_signal": 214872,
+      "risk_score": 64.0,
+      "opportunity_score": 100,
+      "trust_gap_score": 36.8,
+      "priority_score": 68.0
+    },
+    {
+      "account_id": "ACC023",
+      "segment": "Strategic",
+      "owner_team": "Customer Success",
+      "avg_error_rate": 0.0556,
+      "avg_quality_score": 79.1,
+      "avg_freshness_hours": 11.5,
+      "certified_metric_coverage": 68.2,
+      "arr_at_risk": 2407341,
+      "expansion_signal": 969830,
+      "risk_score": 62.1,
+      "opportunity_score": 100,
+      "trust_gap_score": 33.8,
+      "priority_score": 66.4
+    },
+    {
+      "account_id": "ACC016",
+      "segment": "Mid-Market",
+      "owner_team": "Revenue",
+      "avg_error_rate": 0.0529,
+      "avg_quality_score": 80.8,
+      "avg_freshness_hours": 11.4,
+      "certified_metric_coverage": 67.9,
+      "arr_at_risk": 588574,
+      "expansion_signal": 260086,
+      "risk_score": 58.8,
+      "opportunity_score": 100,
+      "trust_gap_score": 32.1,
+      "priority_score": 64.5
+    },
+    {
+      "account_id": "ACC036",
+      "segment": "Mid-Market",
+      "owner_team": "Revenue",
+      "avg_error_rate": 0.0515,
+      "avg_quality_score": 80.3,
+      "avg_freshness_hours": 11.1,
+      "certified_metric_coverage": 68.9,
+      "arr_at_risk": 510446,
+      "expansion_signal": 153926,
+      "risk_score": 58.2,
+      "opportunity_score": 100,
+      "trust_gap_score": 31.5,
+      "priority_score": 64.1
+    },
+    {
+      "account_id": "ACC039",
+      "segment": "Enterprise",
+      "owner_team": "Operations",
+      "avg_error_rate": 0.0508,
+      "avg_quality_score": 79.7,
+      "avg_freshness_hours": 11.4,
+      "certified_metric_coverage": 68.3,
+      "arr_at_risk": 1177893,
+      "expansion_signal": 625363,
+      "risk_score": 56.1,
+      "opportunity_score": 100,
+      "trust_gap_score": 32.8,
+      "priority_score": 63.5
+    },
+    {
+      "account_id": "ACC025",
+      "segment": "Mid-Market",
+      "owner_team": "Product",
+      "avg_error_rate": 0.0525,
+      "avg_quality_score": 80.2,
+      "avg_freshness_hours": 11.4,
+      "certified_metric_coverage": 75.6,
+      "arr_at_risk": 433373,
+      "expansion_signal": 152632,
+      "risk_score": 56.3,
+      "opportunity_score": 100,
+      "trust_gap_score": 28.9,
+      "priority_score": 62.5
+    },
+    {
+      "account_id": "ACC037",
+      "segment": "Mid-Market",
+      "owner_team": "Customer Success",
+      "avg_error_rate": 0.0496,
+      "avg_quality_score": 81.3,
+      "avg_freshness_hours": 10.8,
+      "certified_metric_coverage": 69.7,
+      "arr_at_risk": 528253,
+      "expansion_signal": 291045,
+      "risk_score": 53.6,
+      "opportunity_score": 100,
+      "trust_gap_score": 29.5,
+      "priority_score": 61.5
+    }
   ],
-  "table": [
-    [
-      "ARR expansion",
-      "Finance",
-      "Certified",
-      "Low",
-      "High usage"
-    ],
-    [
-      "Feature adoption",
-      "Product",
-      "Draft",
-      "Medium",
-      "High usage"
-    ],
-    [
-      "Pipeline velocity",
-      "GTM",
-      "Certified",
-      "Low",
-      "Medium usage"
-    ],
-    [
-      "Support efficiency",
-      "Ops",
-      "Owner gap",
-      "High",
-      "Low usage"
-    ]
+  "metricQueue": [
+    {
+      "metric_name": "Support deflection",
+      "domain": "Operations",
+      "owner": "Support Ops",
+      "status": "Draft",
+      "freshness_sla_hours": 24,
+      "current_freshness_hours": 29.9,
+      "quality_score": 61.7,
+      "source_tables": "cases, knowledge events",
+      "certification_blocker": "Needs grain decision"
+    },
+    {
+      "metric_name": "Expansion pipeline sourced",
+      "domain": "Revenue",
+      "owner": "GTM Analytics",
+      "status": "Draft",
+      "freshness_sla_hours": 12,
+      "current_freshness_hours": 12.9,
+      "quality_score": 75.2,
+      "source_tables": "opportunities, product usage",
+      "certification_blocker": "Needs grain decision"
+    },
+    {
+      "metric_name": "AI assist adoption",
+      "domain": "Product",
+      "owner": "Product Analytics",
+      "status": "Draft",
+      "freshness_sla_hours": 12,
+      "current_freshness_hours": 9.7,
+      "quality_score": 80.5,
+      "source_tables": "agent actions, user events",
+      "certification_blocker": "Needs grain decision"
+    },
+    {
+      "metric_name": "Customer health risk",
+      "domain": "Customer",
+      "owner": "Customer Success Ops",
+      "status": "Needs owner",
+      "freshness_sla_hours": 12,
+      "current_freshness_hours": 10.8,
+      "quality_score": 81.4,
+      "source_tables": "tickets, ARR, usage",
+      "certification_blocker": "Owner and definition conflict"
+    },
+    {
+      "metric_name": "Recurring reporting toil",
+      "domain": "Analytics Ops",
+      "owner": "Analytics",
+      "status": "Draft",
+      "freshness_sla_hours": 24,
+      "current_freshness_hours": 29.7,
+      "quality_score": 84.7,
+      "source_tables": "requests, report catalog",
+      "certification_blocker": "Needs owner approval"
+    },
+    {
+      "metric_name": "Data quality incident rate",
+      "domain": "Analytics Ops",
+      "owner": "Data Engineering",
+      "status": "Certified",
+      "freshness_sla_hours": 4,
+      "current_freshness_hours": 6.0,
+      "quality_score": 78.5,
+      "source_tables": "test results, incidents",
+      "certification_blocker": "None"
+    },
+    {
+      "metric_name": "Dashboard freshness SLA",
+      "domain": "Analytics Ops",
+      "owner": "Analytics",
+      "status": "Certified",
+      "freshness_sla_hours": 6,
+      "current_freshness_hours": 5.0,
+      "quality_score": 81.8,
+      "source_tables": "dashboard runs, warehouse jobs",
+      "certification_blocker": "None"
+    },
+    {
+      "metric_name": "Self serve adoption",
+      "domain": "Analytics Ops",
+      "owner": "Analytics",
+      "status": "Certified",
+      "freshness_sla_hours": 12,
+      "current_freshness_hours": 12.3,
+      "quality_score": 85.5,
+      "source_tables": "BI views, stakeholder map",
+      "certification_blocker": "None"
+    }
   ],
-  "dataSays": [
-    "The synthetic data shows that revenue and product dashboards are used heavily, but metric definitions are not equally mature.",
-    "Manual recurring reports cluster around customer usage and GTM performance, making them good AI-assist candidates.",
-    "The strongest next move is to certify metrics before expanding self-serve analytics to more teams."
+  "automationQueue": [
+    {
+      "request_id": "REQ016",
+      "stakeholder_team": "Operations",
+      "report_name": "Dashboard freshness followup",
+      "cadence": "Biweekly",
+      "manual_hours": 7.8,
+      "dashboard_reuse_score": 76.3,
+      "data_quality_score": 94.5,
+      "executive_visibility": "Medium",
+      "ai_assist_fit": 100,
+      "automation_readiness": 94.8
+    },
+    {
+      "request_id": "REQ007",
+      "stakeholder_team": "Executive Staff",
+      "report_name": "Implementation readiness readout",
+      "cadence": "Biweekly",
+      "manual_hours": 5.4,
+      "dashboard_reuse_score": 72.3,
+      "data_quality_score": 93.1,
+      "executive_visibility": "Low",
+      "ai_assist_fit": 100,
+      "automation_readiness": 93.8
+    },
+    {
+      "request_id": "REQ014",
+      "stakeholder_team": "Product",
+      "report_name": "Enterprise onboarding update",
+      "cadence": "Monthly",
+      "manual_hours": 3.6,
+      "dashboard_reuse_score": 76.9,
+      "data_quality_score": 89.7,
+      "executive_visibility": "High",
+      "ai_assist_fit": 99.7,
+      "automation_readiness": 93.3
+    },
+    {
+      "request_id": "REQ006",
+      "stakeholder_team": "Operations",
+      "report_name": "Customer health exception list",
+      "cadence": "Biweekly",
+      "manual_hours": 7.3,
+      "dashboard_reuse_score": 77.0,
+      "data_quality_score": 80.6,
+      "executive_visibility": "High",
+      "ai_assist_fit": 100,
+      "automation_readiness": 90.7
+    },
+    {
+      "request_id": "REQ018",
+      "stakeholder_team": "Finance",
+      "report_name": "Operations SLA watchlist",
+      "cadence": "Biweekly",
+      "manual_hours": 6.4,
+      "dashboard_reuse_score": 91.3,
+      "data_quality_score": 72.5,
+      "executive_visibility": "Low",
+      "ai_assist_fit": 100,
+      "automation_readiness": 90.4
+    },
+    {
+      "request_id": "REQ010",
+      "stakeholder_team": "Revenue",
+      "report_name": "AI assist adoption pulse",
+      "cadence": "Monthly",
+      "manual_hours": 7.4,
+      "dashboard_reuse_score": 84.3,
+      "data_quality_score": 71.2,
+      "executive_visibility": "High",
+      "ai_assist_fit": 100,
+      "automation_readiness": 89.0
+    },
+    {
+      "request_id": "REQ002",
+      "stakeholder_team": "Finance",
+      "report_name": "Renewal risk packet",
+      "cadence": "Biweekly",
+      "manual_hours": 7.1,
+      "dashboard_reuse_score": 44.5,
+      "data_quality_score": 83.7,
+      "executive_visibility": "Medium",
+      "ai_assist_fit": 100,
+      "automation_readiness": 86.8
+    },
+    {
+      "request_id": "REQ011",
+      "stakeholder_team": "Operations",
+      "report_name": "Flow reliability escalation list",
+      "cadence": "Biweekly",
+      "manual_hours": 7.4,
+      "dashboard_reuse_score": 54.5,
+      "data_quality_score": 74.0,
+      "executive_visibility": "High",
+      "ai_assist_fit": 100,
+      "automation_readiness": 85.4
+    }
   ],
-  "recs": [
-    "Certify product-usage and customer-health definitions before expanding self-serve dashboards.",
-    "Use AI-assisted SQL drafts only after metric owners approve transformation logic.",
-    "Convert recurring customer usage readouts into reusable dashboard views with documented assumptions."
+  "actions": [
+    {
+      "action_id": "ACT001",
+      "account_id": "ACC007",
+      "domain": "Operations",
+      "action_type": "Escalate integration reliability review with Data Engineering",
+      "rationale": "Priority 73.5 from risk 73.3, trust gap 41.9, and opportunity 100.",
+      "expected_value": 784503,
+      "effort_hours": 12.1,
+      "owner": "Revenue",
+      "priority_score": 73.5
+    },
+    {
+      "action_id": "ACT002",
+      "account_id": "ACC019",
+      "domain": "Operations",
+      "action_type": "Escalate integration reliability review with Data Engineering",
+      "rationale": "Priority 68.0 from risk 64.0, trust gap 36.8, and opportunity 100.",
+      "expected_value": 140641,
+      "effort_hours": 11.0,
+      "owner": "Customer Success",
+      "priority_score": 68.0
+    },
+    {
+      "action_id": "ACT003",
+      "account_id": "ACC023",
+      "domain": "Operations",
+      "action_type": "Escalate integration reliability review with Data Engineering",
+      "rationale": "Priority 66.4 from risk 62.1, trust gap 33.8, and opportunity 100.",
+      "expected_value": 646684,
+      "effort_hours": 13.9,
+      "owner": "Customer Success",
+      "priority_score": 66.4
+    },
+    {
+      "action_id": "ACT004",
+      "account_id": "ACC016",
+      "domain": "Operations",
+      "action_type": "Escalate integration reliability review with Data Engineering",
+      "rationale": "Priority 64.5 from risk 58.8, trust gap 32.1, and opportunity 100.",
+      "expected_value": 163162,
+      "effort_hours": 17.8,
+      "owner": "Revenue",
+      "priority_score": 64.5
+    },
+    {
+      "action_id": "ACT005",
+      "account_id": "ACC036",
+      "domain": "Operations",
+      "action_type": "Escalate integration reliability review with Data Engineering",
+      "rationale": "Priority 64.1 from risk 58.2, trust gap 31.5, and opportunity 100.",
+      "expected_value": 125744,
+      "effort_hours": 14.4,
+      "owner": "Revenue",
+      "priority_score": 64.1
+    },
+    {
+      "action_id": "ACT006",
+      "account_id": "ACC039",
+      "domain": "Operations",
+      "action_type": "Escalate integration reliability review with Data Engineering",
+      "rationale": "Priority 63.5 from risk 56.1, trust gap 32.8, and opportunity 100.",
+      "expected_value": 349601,
+      "effort_hours": 4.6,
+      "owner": "Operations",
+      "priority_score": 63.5
+    }
+  ],
+  "findings": [
+    "ACC007 is the highest priority account because risk, metric trust, and revenue exposure converge.",
+    "7 of 12 core metrics are certified, which makes the remaining draft metrics the main blocker to broader self serve reporting.",
+    "14 recurring reports clear the readiness threshold for AI assisted draft generation and analyst review."
   ]
 };

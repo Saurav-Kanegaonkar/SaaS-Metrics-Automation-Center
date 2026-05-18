@@ -1,33 +1,46 @@
-entity_id,entity_name,segment,owner
-ACC001,Account 1,Core,Revenue
-ACC002,Account 2,Watch,Customer
-ACC003,Account 3,Core,Customer
-ACC004,Account 4,Watch,Customer
-ACC005,Account 5,Watch,Customer
-ACC006,Account 6,Strategic,Revenue
-ACC007,Account 7,Growth,Analytics
-ACC008,Account 8,Strategic,Revenue
-ACC009,Account 9,Core,Operations
-ACC010,Account 10,Watch,Customer
-ACC011,Account 11,Growth,Operations
-ACC012,Account 12,Watch,Product
-ACC013,Account 13,Growth,Customer
-ACC014,Account 14,Growth,Analytics
-ACC015,Account 15,Watch,Revenue
-ACC016,Account 16,Watch,Operations
-ACC017,Account 17,Core,Analytics
-ACC018,Account 18,Growth,Revenue
-ACC019,Account 19,Watch,Operations
-ACC020,Account 20,Strategic,Product
-ACC021,Account 21,Growth,Analytics
-ACC022,Account 22,Core,Revenue
-ACC023,Account 23,Strategic,Operations
-ACC024,Account 24,Watch,Operations
-ACC025,Account 25,Growth,Product
-ACC026,Account 26,Strategic,Analytics
-ACC027,Account 27,Watch,Product
-ACC028,Account 28,Core,Customer
-ACC029,Account 29,Growth,Analytics
-ACC030,Account 30,Core,Operations
-ACC031,Account 31,Watch,Analytics
-ACC032,Account 32,Growth,Operations
+account_id,account_name,segment,industry,region,arr,lifecycle_stage,owner_team,implementation_maturity,primary_system
+ACC001,Account 001,Mid-Market,SaaS operations,North America,187967,Scale,Revenue,Optimized,ERP
+ACC002,Account 002,Strategic,Retail supply chain,APAC,911327,Renewal,Product,Optimized,Support
+ACC003,Account 003,SMB,Retail supply chain,North America,46671,Scale,Revenue,Optimized,Finance
+ACC004,Account 004,Strategic,Retail supply chain,EMEA,889169,Scale,Revenue,Managed,Commerce
+ACC005,Account 005,Mid-Market,Ecommerce,EMEA,132621,Adoption,Revenue,Optimized,Support
+ACC006,Account 006,Mid-Market,Manufacturing,APAC,115415,Adoption,Customer Success,Optimized,Finance
+ACC007,Account 007,Strategic,Ecommerce,North America,710427,Scale,Revenue,Managed,Commerce
+ACC008,Account 008,Mid-Market,Healthcare operations,North America,190452,Adoption,Operations,Starter,Commerce
+ACC009,Account 009,SMB,Manufacturing,EMEA,36484,Scale,Customer Success,Starter,ERP
+ACC010,Account 010,Enterprise,Ecommerce,APAC,360928,Onboarding,Product,Managed,CRM
+ACC011,Account 011,Enterprise,Healthcare operations,North America,358178,Renewal,Operations,Managed,ERP
+ACC012,Account 012,SMB,Retail supply chain,APAC,31074,Renewal,Revenue,Managed,Data warehouse
+ACC013,Account 013,SMB,Healthcare operations,EMEA,36445,Renewal,Revenue,Optimized,Support
+ACC014,Account 014,Strategic,Healthcare operations,EMEA,659198,Adoption,Operations,Managed,Commerce
+ACC015,Account 015,Enterprise,Financial operations,North America,448698,Scale,Revenue,Managed,Support
+ACC016,Account 016,Mid-Market,Ecommerce,EMEA,170911,Adoption,Revenue,Starter,Commerce
+ACC017,Account 017,SMB,SaaS operations,EMEA,37953,Renewal,Operations,Optimized,ERP
+ACC018,Account 018,SMB,SaaS operations,North America,38614,Scale,Product,Optimized,Support
+ACC019,Account 019,Mid-Market,Retail supply chain,North America,136936,Renewal,Customer Success,Starter,CRM
+ACC020,Account 020,SMB,Manufacturing,EMEA,43055,Adoption,Product,Managed,CRM
+ACC021,Account 021,Strategic,Financial operations,APAC,898337,Adoption,Product,Managed,Commerce
+ACC022,Account 022,Enterprise,SaaS operations,APAC,320336,Adoption,Customer Success,Managed,ERP
+ACC023,Account 023,Strategic,SaaS operations,North America,654602,Scale,Customer Success,Managed,Commerce
+ACC024,Account 024,Mid-Market,Manufacturing,APAC,184307,Adoption,Operations,Optimized,ERP
+ACC025,Account 025,Mid-Market,Ecommerce,EMEA,132680,Renewal,Product,Optimized,Data warehouse
+ACC026,Account 026,Mid-Market,Manufacturing,EMEA,135371,Scale,Operations,Managed,CRM
+ACC027,Account 027,Enterprise,Retail supply chain,EMEA,308570,Onboarding,Operations,Optimized,Finance
+ACC028,Account 028,Strategic,Retail supply chain,North America,802776,Adoption,Product,Managed,Commerce
+ACC029,Account 029,Mid-Market,SaaS operations,EMEA,172276,Adoption,Product,Optimized,Commerce
+ACC030,Account 030,Enterprise,Healthcare operations,North America,509414,Scale,Operations,Starter,CRM
+ACC031,Account 031,SMB,SaaS operations,APAC,32814,Scale,Customer Success,Managed,Finance
+ACC032,Account 032,Enterprise,Manufacturing,APAC,394390,Onboarding,Revenue,Starter,Data warehouse
+ACC033,Account 033,SMB,SaaS operations,EMEA,31520,Renewal,Customer Success,Managed,Commerce
+ACC034,Account 034,SMB,Healthcare operations,North America,34617,Onboarding,Revenue,Managed,Finance
+ACC035,Account 035,Enterprise,Retail supply chain,EMEA,370702,Onboarding,Revenue,Managed,ERP
+ACC036,Account 036,Mid-Market,Healthcare operations,North America,149419,Renewal,Revenue,Managed,Finance
+ACC037,Account 037,Mid-Market,Healthcare operations,North America,169559,Renewal,Customer Success,Managed,Support
+ACC038,Account 038,SMB,Retail supply chain,North America,50151,Adoption,Product,Optimized,Data warehouse
+ACC039,Account 039,Enterprise,Retail supply chain,EMEA,362542,Adoption,Operations,Managed,Support
+ACC040,Account 040,Enterprise,Financial operations,APAC,458383,Onboarding,Product,Managed,Support
+ACC041,Account 041,Mid-Market,Financial operations,North America,187968,Scale,Revenue,Starter,Data warehouse
+ACC042,Account 042,Mid-Market,Retail supply chain,APAC,98640,Scale,Customer Success,Optimized,Finance
+ACC043,Account 043,Enterprise,Healthcare operations,North America,403211,Adoption,Revenue,Optimized,CRM
+ACC044,Account 044,Enterprise,Healthcare operations,APAC,302834,Renewal,Revenue,Optimized,Data warehouse
+ACC045,Account 045,Strategic,Financial operations,EMEA,643497,Scale,Customer Success,Managed,Finance

@@ -2,14 +2,15 @@
 
 ## What I analyzed
 
-I joined 3,840 daily metric rows, 650 source events, and 180 action candidates for SaaS metrics automation.
+I modeled a SaaS integration and automation platform analytics mart with 45 accounts, 4,050 daily fact rows, 50 source events, 12 metric definitions, and 18 recurring reporting requests.
 
 ## Findings
 
-- The highest-priority account is ACC032 with a priority score of 90.57.
-- The top queue combines 48.2 average risk with 81.0 quality score and $789,256 estimated impact.
-- The strongest use case is turning repeated stakeholder questions into a ranked operating digest.
+- ACC007 is the highest priority account because operational risk, metric trust gap, and revenue exposure converge.
+- Seven of twelve core metrics are certified. The remaining draft or owner gap metrics are the main blocker to broader self serve reporting.
+- Fourteen recurring reports clear the readiness threshold for AI assisted draft generation and analyst review.
+- The strongest near term move is to certify customer health risk, flow reliability, and recurring reporting toil before scaling executive reporting.
 
 ## Recommendation
 
-Prioritize the top queue before scaling more dashboards. The project should help leaders decide which account risks need action, validation, or monitoring.
+Use the command center as a weekly analytics operating review. Data Engineering should close metric freshness and quality gaps, Analytics should certify definitions, and stakeholder teams should automate only reports that pass the readiness threshold.
